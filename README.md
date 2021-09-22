@@ -22,4 +22,3 @@ Summary	Steps	Expected result
 		
 3. Create a bug report for the next issue:
 The request GET /posts/0 returned 404 Not Found, but you expect an empty list with 200 OK
-You may send results in any form you like: GitHub project, email, etc.
