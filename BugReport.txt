@@ -1,0 +1,21 @@
+Summary.
+The request GET /posts/0 return 404 Not Found, but need return an empty list with 200 OK.
+
+Steps.
+1) Open any browser.
+2) Press the key F12.
+3) Click on the "Network" button in the upper right part of the window that opens.
+4) Follow the link https://jsonplaceholder.typicode.com/posts/0.
+5) Pay attention to the response and response body.
+
+Expected result.
+HTTP code: 404
+Response body: NULL
+
+Actual result.
+HTTP code: 200
+Response body: []
+
+Priority.
+P1/P2
+
